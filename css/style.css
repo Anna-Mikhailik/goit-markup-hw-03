@@ -49,6 +49,7 @@ img {
   display: flex;
   gap: 40px;
   margin-right: 166px;
+  padding: 24px 0
 }
 
 .header-con-list {
@@ -135,10 +136,15 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .features-list {
   margin-top: 60px;
   display: flex;
   gap: 24px;
+}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -276,11 +282,11 @@ img {
 }
 
 .box-item {
+  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   background-origin: 1px;
   border-radius: 0px 0px 4px 4px
-  width calc((100% - 3 * 24px) / 4)
-}
+  }
 
 /*-------------------box---------------------*/
 
