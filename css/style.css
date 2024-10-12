@@ -115,13 +115,25 @@ a {
 /*-------------------features---------------------*/
 
 .features {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .features-list {
   margin-top: 60px;
   display: flex;
+  gap: 24px;
 }
 
 .features-subtitle {
@@ -205,11 +217,12 @@ a {
 
 /*-------------------box---------------------*/
 .text-pad {
-  padding: 32 16 32 16;
+  padding: 32px 0
 }
 
 .box-list {
   display: flex;
+  gap: 24px;
 }
 
 .box {
@@ -260,13 +273,16 @@ a {
 .box-item {
   background-color: #ffffff;
   background-origin: 1px;
+  border-radius: 0px 0px 4px 4px
 }
 
 /*-------------------box---------------------*/
 
 /*-------------------card---------------------*/
 .card-text-pad {
-  padding: 32 16 32 16;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  
 }
 .card {
   padding-top: 120px;
@@ -274,12 +290,14 @@ a {
 }
 
 .card-item {
-  border: 1px;
+  width: calc((100% - 48px) / 3);
 }
 
 .card-list {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .card-title {
@@ -332,6 +350,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-iris {
