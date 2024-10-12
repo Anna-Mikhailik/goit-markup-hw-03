@@ -66,16 +66,6 @@ img {
   padding: 24px 0
 }
 
-/**
-.header-container {
-  display: flex;
-  align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding: 0 15px
-}
-  **/
-
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -97,18 +87,6 @@ img {
 }
 
 .header-menu-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  padding: 24px 0
-}
-
-.url {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -171,7 +149,7 @@ img {
 }
 
 .features-item {
- flex-basis: calc((100% - 3 * 24px) / 4) ;
+ flex-basis: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
