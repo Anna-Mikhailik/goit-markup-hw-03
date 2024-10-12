@@ -56,6 +56,7 @@ img {
   display: flex;
   margin-left: auto;
   gap: 40px;
+  padding: 24px 0
 }
 
 .header-container {
@@ -282,10 +283,10 @@ img {
 }
 
 .box-item {
-  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   background-origin: 1px;
-  border-radius: 0px 0px 4px 4px
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   }
 
 /*-------------------box---------------------*/
@@ -295,7 +296,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none; 
-  
 }
 .card {
   padding-top: 120px;
