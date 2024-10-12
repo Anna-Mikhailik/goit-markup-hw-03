@@ -9,6 +9,7 @@ ul {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
+  padding-left: 0;
 }
 
 p,
@@ -55,7 +56,6 @@ img {
   align-items: center;
   gap: 40px;
   margin-right: 166px;
-  gap: 40px;
   padding: 24px 0
 }
 
@@ -301,6 +301,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none; 
 }
+
 .card {
   padding-top: 120px;
   padding-bottom: 120px;
