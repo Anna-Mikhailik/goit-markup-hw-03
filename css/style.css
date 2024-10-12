@@ -25,7 +25,7 @@ a {
 }
 
 img {
-  display: block
+  display: block;
 }
 
 .container {
@@ -38,7 +38,7 @@ img {
 .header {
   padding-top: 25, 5px;
   padding-bottom: 25, 5px;
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -56,14 +56,14 @@ img {
   align-items: center;
   gap: 40px;
   margin-right: 166px;
-  padding: 24px 0
+  padding: 24px 0;
 }
 
 .header-con-list {
   display: flex;
   margin-left: auto;
   gap: 40px;
-  padding: 24px 0
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -79,7 +79,6 @@ img {
   margin-right: 76px;
   display: flex;
   align-items: center;
-  
 }
 
 .header-logo-iris {
@@ -95,7 +94,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0
+  padding: 24px 0;
 }
 
 .header-con-link {
@@ -107,7 +106,7 @@ img {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  padding: 24px 0
+  padding: 24px 0;
 }
 
 .header-con {
@@ -215,8 +214,14 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
-  border: none; 
-  border-radius: 4px; 
+  border: none;
+  border-radius: 4px;
+}
+
+.hero .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .hero-btn:hover,
@@ -224,16 +229,15 @@ img {
   background-color: #404bbf;
 }
 .container-btn {
-  display:flex;
+  display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 /*-------------------hero---------------------*/
 
 /*-------------------box---------------------*/
 .text-pad {
-  padding: 32px 0
+  padding: 32px 0;
 }
 
 .box-list {
@@ -291,7 +295,7 @@ img {
   background-origin: 1px;
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 72px) / 4);
-  }
+}
 
 /*-------------------box---------------------*/
 
@@ -299,7 +303,7 @@ img {
 .card-text-pad {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; 
+  border-top: none;
 }
 
 .card {
