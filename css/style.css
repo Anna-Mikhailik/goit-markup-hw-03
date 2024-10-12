@@ -31,9 +31,8 @@ a {
 }
 /*-------------------header---------------------*/
 .header {
-  padding-top: 25,5px;
-  padding-bottom: 25,5px;
-  
+  padding-top: 25, 5px;
+  padding-bottom: 25, 5px;
 }
 
 .header-navigation {
@@ -110,8 +109,6 @@ a {
   color: #404bbf;
 }
 
-
-
 /*-------------------header---------------------*/
 
 /*-------------------features---------------------*/
@@ -149,7 +146,6 @@ a {
   color: #434455;
 }
 
-
 /*-------------------features---------------------*/
 
 /*-------------------hero---------------------*/
@@ -184,14 +180,11 @@ a {
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
-  
-  
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
-  
 }
 .container-btn {
   text-align: center;
@@ -207,12 +200,10 @@ a {
   display: flex;
 }
 
-
 .box {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
-
 }
 
 .box-title {
@@ -227,7 +218,6 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  
 }
 
 .box-subtitle {
@@ -264,7 +254,7 @@ a {
 
 /*-------------------card---------------------*/
 .card-text-pad {
-padding: 32 16 32 16;
+  padding: 32 16 32 16;
 }
 .card {
   padding-top: 120px;
@@ -330,7 +320,6 @@ padding: 32 16 32 16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
 }
 
 .footer-logo-iris {
@@ -341,7 +330,6 @@ padding: 32 16 32 16;
   background-color: #2e2f42;
   padding-top: 100px;
   padding-bottom: 100px;
-  
 }
 
 .cloud {
